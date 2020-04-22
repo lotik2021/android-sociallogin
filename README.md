@@ -19,7 +19,7 @@ To include 'core' module add following string to your module build.gradle file
 
 ```Groovy
 dependencies {
-    compile 'com.github.KosyanMedia.android-sociallogin:sociallogin:x.y.z'
+    compile 'com.github.lotik2021.android-sociallogin:sociallogin:x.y.z'
 }
 ```
 where ```x.y.z``` is the version of lib. You can find latest version in the badge on top of the page
@@ -32,19 +32,19 @@ For example if you need a facebook, you should add this line in build.gradle fil
 ```Groovy
 dependencies {
     ...
-    compile 'com.github.KosyanMedia.android-sociallogin:facebook:x.y.z'
+    compile 'com.github.lotik2021.android-sociallogin:facebook:x.y.z'
 }
 ```
 
 There is a list of modules:
 
 ```Groovy
-compile 'com.github.KosyanMedia.android-sociallogin:facebook:x.y.z'
-compile 'com.github.KosyanMedia.android-sociallogin:google:x.y.z'
-compile 'com.github.KosyanMedia.android-sociallogin:odnoklassniki:x.y.z'
-compile 'com.github.KosyanMedia.android-sociallogin:rx:x.y.z'
-compile 'com.github.KosyanMedia.android-sociallogin:twitter:x.y.z'
-compile 'com.github.KosyanMedia.android-sociallogin:vkontakte:x.y.z'
+compile 'com.github.lotik2021.android-sociallogin:facebook:x.y.z'
+compile 'com.github.lotik2021.android-sociallogin:google:x.y.z'
+compile 'com.github.lotik2021.android-sociallogin:odnoklassniki:x.y.z'
+compile 'com.github.lotik2021.android-sociallogin:rx:x.y.z'
+compile 'com.github.lotik2021.android-sociallogin:twitter:x.y.z'
+compile 'com.github.lotik2021.android-sociallogin:vkontakte:x.y.z'
 ```
 
 If module you want is not present here, you can implement it by yourself
@@ -106,5 +106,5 @@ override fun onActivtyResult(requestCode: Int, resultCode: Int, data: Intent?) {
 ```
 
 
-[java-sample]: https://github.com/KosyanMedia/android-sociallogin/tree/master/sample-java
-[kotlin-sample]: https://github.com/KosyanMedia/android-sociallogin/tree/master/sample-kotlin
+[java-sample]: https://github.com/lotik2021/android-sociallogin/tree/master/sample-java
+[kotlin-sample]: https://github.com/lotik2021/android-sociallogin/tree/master/sample-kotlin
