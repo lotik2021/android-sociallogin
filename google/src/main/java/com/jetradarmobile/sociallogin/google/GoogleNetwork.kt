@@ -49,7 +49,7 @@ class GoogleNetwork(val idToken: String) : SocialNetwork,
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == REQUEST_CODE) {
             val result = Auth.GoogleSignInApi.getSignInResultFromIntent(data)
-            handleSignInResult(result)
+            handleSignInResult(result!!)
         }
     }
 

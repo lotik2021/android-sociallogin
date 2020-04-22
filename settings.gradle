@@ -5,5 +5,5 @@ include ':twitter'
 include ':vkontakte'
 include ':facebook'
 
-include ':sample-java'
-include ':sample-kotlin'
+//include ':sample-java'
+//include ':sample-kotlin'

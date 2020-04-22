@@ -4,10 +4,10 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.KosyanMedia'
 
 dependencies {
-    compile project (':sociallogin')
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    implementation project (':sociallogin')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 
-    compile('com.twitter.sdk.android:twitter-core:2.3.1@aar') {
+    implementation('com.twitter.sdk.android:twitter-core:2.3.1@aar') {
         transitive = true;
     }
 }

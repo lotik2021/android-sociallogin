@@ -4,10 +4,10 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.KosyanMedia'
 
 dependencies {
-    compile project (':sociallogin')
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    implementation project (':sociallogin')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 
-    compile 'com.google.android.gms:play-services-auth:10.2.6'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
 }
 
 android {

@@ -16,18 +16,18 @@ android {
 }
 
 dependencies {
-    compile project(':sociallogin')
-    compile project(':rx')
-    compile project(':vkontakte')
-    compile project(':twitter')
-    compile project(':odnoklassniki')
-    compile project(':google')
-    compile project(':facebook')
+    implementation project(':sociallogin')
+    implementation project(':rx')
+    implementation project(':vkontakte')
+    implementation project(':twitter')
+    implementation project(':odnoklassniki')
+    implementation project(':google')
+    implementation project(':facebook')
 
-    compile "com.android.support:appcompat-v7:$supportLibVersion"
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    implementation "com.android.support:appcompat-v7:$supportLibVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 
-    compile 'com.google.android.gms:play-services-auth:10.2.6'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
